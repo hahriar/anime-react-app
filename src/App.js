@@ -33,8 +33,8 @@ function Result(props){
   return(
     <div>
       <img src={props.cover} alt="" />
-        <h2> Name: {props.title}</h2>
-        <p>Rating: {props.rate}</p>
+        <h2>{props.title}</h2>
+        <p>{props.rate}</p>
         <p><small>About: {props.about}</small></p>
         </div>
 
